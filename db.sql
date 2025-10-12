@@ -2,11 +2,13 @@ CREATE DATABASE privacy;
 USE privacy;
 
 CREATE TABLE dados(
-id_unico  primary key NOT NULL,
-usuario_unico NOT NULL,
-senha_unica NOT NUll,
+id_unico INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+usuario_unico VARCHAR(255) NOT NULL,
+senha_unica VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE fotos(
-  foto_varias varchar(255) DEFAULT 'default.jpg'
+foto_varias VARCHAR(255) DEFAULT 'default.jpg'
 );
+
+INSERT INTO dados (usuario_unico, senha_unica) VALUES ('_gustavob00', '123abx');
