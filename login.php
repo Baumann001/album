@@ -1,3 +1,24 @@
+<?php
+session_start();
+include 'db.php';
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $usuario = $_POST['usuario'];
+    $senha = $_POST['senha'];
+
+    $sql = "SELECT * FROM dados WHERE usuario_unico = '$usuario' AND senha_unica = '$senha'";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        $_SESSION['loggedin'] = true;
+        header('Location: index.php');
+        exit;
+    } else {
+        $error = "Usuário ou senha incorretos.";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -9,6 +30,7 @@
 <body>
     <div class="container">
         <h1>Privacy - Login</h1>
+        <?php if (isset($error)) echo "<p style='color:red;'>$error</p>"; ?>
         <form action="login.php" method="post">
             <input type="text" name="usuario" placeholder="Usuário" required>
             <input type="password" name="senha" placeholder="Senha" required>
