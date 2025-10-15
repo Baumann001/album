@@ -21,7 +21,7 @@ $result = $conn->query($sql);
 </head>
 <body>
     <div class="container">
-        <h1>Privacy - Upload de Fotos</h1>
+        <h1>Álbum - Upload de Fotos</h1>
         <form action="upload.php" method="post" enctype="multipart/form-data">
             <input type="file" name="foto" accept="image/*" required>
             <button type="submit">Enviar Foto</button>
