@@ -1,13 +1,6 @@
-# TODO: Fix Database Issues and Implement Login
+# TODO List for Creating Ugly Rain Effect on Main Page
 
-- [x] Fix syntax errors in db.sql (add data types, remove extra comma, correct NULL)
-- [x] Update db.php to use 'privacy' database name
-- [x] Add INSERT for single user account
-- [ ] Execute db.sql to create the database and insert user
-- [ ] Test database connection
-- [x] Implement login logic in login.php using the single account
-- [x] Add session protection to index.php
-- [x] Create upload.php for photo uploads
-- [x] Create logout.php
-- [x] Create style.css with privacy theme
-- [x] Display uploaded photos in index.php
+- [ ] Edit teste.js: Implement window.onload event listener and create a function to generate and animate falling ugly elements (e.g., skull emojis) raining down the screen.
+- [ ] Edit style.css: Add CSS styles for the falling elements to enhance ugliness (e.g., red color, shadows, animations).
+- [ ] Edit index.php: Add <script src="teste.js"></script> tag before closing </body> to include the JavaScript file.
+- [x] Test the effect: Open index.php in a browser to verify the rain effect works as intended.
