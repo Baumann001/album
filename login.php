@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
     <div class="container">
-        <h1>Privacy - Login</h1>
+        <h1>Álbum - Login</h1>
         <?php if (isset($error)) echo "<p style='color:red;'>$error</p>"; ?>
         <form action="login.php" method="post">
             <input type="text" name="usuario" placeholder="Usuário" required>
