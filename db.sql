@@ -1,5 +1,5 @@
-CREATE DATABASE privacy;
-USE privacy;
+CREATE DATABASE album;
+USE album;
 
 CREATE TABLE dados(
 id_unico INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
