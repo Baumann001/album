@@ -27,6 +27,14 @@ $result = $conn->query($sql);
         <h2>olá, está página é um pouco da história da minha família, um pedaço de nossas lemnbranças, dos momentos mais importantes</h2>
         <div class="gallery">
             
+
+        <audio class="player" controls>
+            Your browser does not support the audio element.
+        </audio>
+        <div class="lyric">Lyrics will appear here</div>
+        <script src="script.js"></script>
+
+    
         </div>
         <a href="logout.php" style="color: #ffffff; text-decoration: none; margin-top: 20px; display: inline-block;">Logout</a>
 
