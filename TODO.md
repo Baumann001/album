@@ -1,5 +1,0 @@
-- [ ] Modify index.php to remove database dependencies, session checks, and links to other pages
-- [ ] Remove gallery section that fetches photos from DB
-- [ ] Keep audio player and lyrics functionality
-- [ ] Delete unnecessary PHP files (login.php, logout.php, gustavo.php, larissa.php, upload.php, delete.php, db.php)
-- [ ] Update any references if needed
