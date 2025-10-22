@@ -1,6 +1,5 @@
-# TODO List for Creating Ugly Rain Effect on Main Page
-
-- [ ] Edit teste.js: Implement window.onload event listener and create a function to generate and animate falling ugly elements (e.g., skull emojis) raining down the screen.
-- [ ] Edit style.css: Add CSS styles for the falling elements to enhance ugliness (e.g., red color, shadows, animations).
-- [ ] Edit index.php: Add <script src="teste.js"></script> tag before closing </body> to include the JavaScript file.
-- [x] Test the effect: Open index.php in a browser to verify the rain effect works as intended.
+- [ ] Modify index.php to remove database dependencies, session checks, and links to other pages
+- [ ] Remove gallery section that fetches photos from DB
+- [ ] Keep audio player and lyrics functionality
+- [ ] Delete unnecessary PHP files (login.php, logout.php, gustavo.php, larissa.php, upload.php, delete.php, db.php)
+- [ ] Update any references if needed
